@@ -1,25 +1,24 @@
 # Respostas:
 
-####Qual o objetivo do comando cache em Spark?
+#### Qual o objetivo do comando cache em Spark?
 Persistir os dados em memória, ao invés do disco, para um processamento mais rápido dos datasets.
 
-####O mesmo código implementado em Spark é normalmente mais rápido que a implementação equivalente em
-MapReduce. Por quê?
-O Spark é um framework criado para esse próposito, que pode armazenar e processar os dados em memória e em disco, 
+#### O mesmo código implementado em Spark é normalmente mais rápido que a implementação equivalente em MapReduce. Por quê?
+O Spark é um framework criado para esse próposito, que pode armazenar e processar os dados em memória e em disco,  
 ao contrário do MapReduce que só utiliza disco.
 
-####Qual é a função do SparkContext?
+#### Qual é a função do SparkContext?
 Estabelecer conexão com os ambientes de execução do Spark.
 
-####Explique com suas palavras o que é Resilient Distributed Datasets (RDD).
-É uma coleção de dados imutáveis e distribuída que podem ser paralelamente processadas em várias partições de um cluster, 
+#### Explique com suas palavras o que é Resilient Distributed Datasets (RDD).
+É uma coleção de dados imutáveis e distribuída que podem ser paralelamente processadas em várias partições de um cluster,   
 além de tolerante a falha pois permite o reprocessamento somente partição com erro.
  
-####GroupByKey é menos eficiente que reduceByKey em grandes dataset. Por quê?
-Pois o reduceByKey combina os dados antes de enviar para o shuffle, ao contrário do groupByKey, 
+#### GroupByKey é menos eficiente que reduceByKey em grandes dataset. Por quê?
+Pois o reduceByKey combina os dados antes de enviar para o shuffle, ao contrário do groupByKey,   
 reduzindo a quantidade de dados transmitidos e processados pelas aplicações.
 
-####Explique o que o código Scala abaixo faz.
+#### Explique o que o código Scala abaixo faz.
 ```
 val textFile = sc.textFile("hdfs://...")
 val counts = textFile.flatMap(line => line.split(" "))
@@ -44,10 +43,10 @@ piweba1y.prodigy.com 114
 www-d4.proxy.aol.com 91
 
 4. Quantidade de erros 404 por dia.
-01/Jul/1995 316
-02/Jul/1995 291
-03/Jul/1995 474
-04/Jul/1995 359
+01/Jul/1995 316  
+02/Jul/1995 291  
+03/Jul/1995 474  
+04/Jul/1995 359  
 05/Jul/1995 497
 06/Jul/1995 640
 07/Jul/1995 570
