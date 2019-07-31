@@ -45,10 +45,10 @@ Total 404 errors: 20901
 
 
 #### 3. Os 5 URLs que mais causaram erro 404.
-hoohoo.ncsa.uiuc.edu 251
-piweba3y.prodigy.com 157
-jbiagioni.npt.nuwc.navy.mil 132
-piweba1y.prodigy.com 114
+hoohoo.ncsa.uiuc.edu 251  
+piweba3y.prodigy.com 157  
+jbiagioni.npt.nuwc.navy.mil 132  
+piweba1y.prodigy.com 114  
 www-d4.proxy.aol.com 91
 
 
@@ -110,7 +110,7 @@ www-d4.proxy.aol.com 91
 28/Aug/1995 410  
 29/Aug/1995 420  
 30/Aug/1995 571  
-31/Aug/1995 526  
+31/Aug/1995 526
 
 
 #### 5. O total de bytes retornados.
